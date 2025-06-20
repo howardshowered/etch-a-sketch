@@ -16,17 +16,19 @@ div .col{
     flex-direction: column;
     width: 500px;
     height: 500px;
-    justify-self: center;;
     background-color: white;
 
 }
 
 body{
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .buttonContainer {
-    justify-self: center;
     padding: 10px;
     display: flex;
 }
