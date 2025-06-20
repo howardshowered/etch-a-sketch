@@ -1,0 +1,32 @@
+div .row{
+    border: 1px solid black;
+    display:flex;
+    flex: 1;
+}
+
+div .col{
+    border: 1px solid black;
+    flex: 1;
+
+}
+
+#container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    justify-self: center;;
+    background-color: white;
+
+}
+
+body{
+    background-color: black;
+}
+
+.buttonContainer {
+    justify-self: center;
+    padding: 10px;
+    display: flex;
+}
